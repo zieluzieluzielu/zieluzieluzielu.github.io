@@ -1,6 +1,6 @@
 $(document).ready(function() {
   const apiRoot = 'https://damp-woodland-72090.herokuapp.com/v1/task/';
-  const trelloApiRoot = 'hhttps://damp-woodland-72090.herokuapp.com/v1/trello/';
+  const trelloApiRoot = 'https://damp-woodland-72090.herokuapp.com/v1/trello/';
   const datatableRowTemplate = $('[data-datatable-row-template]').children()[0];
   const $tasksContainer = $('[data-tasks-container]');
 
